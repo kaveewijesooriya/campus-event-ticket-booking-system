@@ -18,4 +18,12 @@ Poor communication between organizers and students
 No secure user authentication
 
 These problems negatively affect both students and event organizers.
+
+
+🎯 Target Users
+
+University Students
+Campus Event Organizers
+Student Clubs and Societies
+University Administrators
  
