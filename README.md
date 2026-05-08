@@ -4,6 +4,8 @@ Title
 
 
 
+
+
 📌 Problem Description
 
 Many universities and educational institutions still manage events manually through paper registrations, spreadsheets, social media posts, or Google Forms. This creates several issues such as:
