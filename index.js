@@ -3,6 +3,9 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
 
+import eventRoute from "./routes/eventRoute.js";
+import bookingRoute from "./routes/bookingRoute.js";
+
 dotenv.config();
 
 const app = express();
@@ -10,12 +13,13 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Test Route
+app.use("/api/events", eventRoute);
+app.use("/api/bookings", bookingRoute);
+
 app.get("/", (req, res) => {
     res.send("Campus Event Ticket Booking System API Running");
 });
 
-// MongoDB Connection
 mongoose.connect(process.env.MONGO_URL)
 .then(() => {
 
