@@ -28,7 +28,8 @@ mongoose.connect(process.env.MONGO_URL)
     console.log("MongoDB Connected Successfully");
 
     app.listen(process.env.PORT, () => {
-        console.log(`Server running on port ${process.env.PORT}`);
+        console.log(`✅ Backend Server is running at http://localhost:${process.env.PORT}`);
+        console.log(`🌐 Frontend App is running at http://localhost:5173`);
     });
 
 })
