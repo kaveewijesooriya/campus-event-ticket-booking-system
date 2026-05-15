@@ -5,6 +5,7 @@ import cors from "cors";
 
 import eventRoute from "./routes/eventRoute.js";
 import bookingRoute from "./routes/bookingRoute.js";
+import authRoute from "./routes/authRoute.js";
 
 dotenv.config();
 
@@ -13,6 +14,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+app.use("/api/auth", authRoute);
 app.use("/api/events", eventRoute);
 app.use("/api/bookings", bookingRoute);
 

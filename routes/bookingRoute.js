@@ -5,13 +5,14 @@ import {
     getBookings,
     deleteBooking
 } from "../controllers/bookingController.js";
+import { protect } from "../middleware/authMiddleware.js";
 
 const router = express.Router();
 
-router.post("/create", createBooking);
+router.post("/create", protect, createBooking);
 
-router.get("/", getBookings);
+router.get("/", protect, getBookings);
 
-router.delete("/delete/:id", deleteBooking);
+router.delete("/delete/:id", protect, deleteBooking);
 
 export default router;
