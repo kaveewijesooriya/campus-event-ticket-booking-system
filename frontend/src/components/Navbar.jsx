@@ -29,8 +29,7 @@ const Navbar = () => {
                         <line x1="8" y1="2" x2="8" y2="6"></line>
                         <line x1="3" y1="10" x2="21" y2="10"></line>
                         <path d="M10 14h4v4h-4z"></path>
-                    </svg>
-                    Event<span>ora</span>
+                    </svg>Event<span>ora</span>
                 </Link>
                 <div className="nav-links">
                     <button onClick={toggleTheme} className="theme-toggle" title="Toggle Theme">
