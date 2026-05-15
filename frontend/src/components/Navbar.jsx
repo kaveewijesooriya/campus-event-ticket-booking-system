@@ -24,12 +24,13 @@ const Navbar = () => {
                                 <stop offset="100%" stopColor="var(--secondary-color)" />
                             </linearGradient>
                         </defs>
-                        <path d="M4 7v3.882c0 .415.353.75.794.75h.059c1.076 0 1.947.882 1.947 1.968 0 1.085-.871 1.968-1.947 1.968h-.059c-.441 0-.794.335-.794.75V20c0 1.105.895 2 2 2h14c1.105 0 2-.895 2-2v-3.682c0-.415-.353-.75-.794-.75h-.059c-1.076 0-1.947-.882-1.947-1.968 0-1.085.871-1.968 1.947-1.968h.059c.441 0 .794-.335.794-.75V7c0-1.105-.895-2-2-2H6c-1.105 0-2 .895-2 2Z"/>
-                        <path d="M10 9h4"/>
-                        <path d="M10 13h4"/>
-                        <path d="M10 17h4"/>
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                        <path d="M10 14h4v4h-4z"></path>
                     </svg>
-                    <span>Event<span style={{ color: 'var(--accent-color)', WebkitTextFillColor: 'var(--accent-color)' }}>ora</span></span>
+                    Event<span>ora</span>
                 </Link>
                 <div className="nav-links">
                     <button onClick={toggleTheme} className="theme-toggle" title="Toggle Theme">
