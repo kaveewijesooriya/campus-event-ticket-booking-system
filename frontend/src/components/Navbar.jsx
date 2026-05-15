@@ -24,11 +24,10 @@ const Navbar = () => {
                                 <stop offset="100%" stopColor="var(--secondary-color)" />
                             </linearGradient>
                         </defs>
-                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                        <line x1="16" y1="2" x2="16" y2="6"></line>
-                        <line x1="8" y1="2" x2="8" y2="6"></line>
-                        <line x1="3" y1="10" x2="21" y2="10"></line>
-                        <path d="M10 14h4v4h-4z"></path>
+                        <path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"></path>
+                        <path d="M13 5v2"></path>
+                        <path d="M13 17v2"></path>
+                        <path d="M13 11v2"></path>
                     </svg>Event<span>ora</span>
                 </Link>
                 <div className="nav-links">
