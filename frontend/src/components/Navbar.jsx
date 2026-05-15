@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="nav-container">
-                <Link to="/" className="nav-logo" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <Link to="/" className="nav-logo" style={{ display: 'flex', alignItems: 'center' }}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="url(#logoGradient)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                         <defs>
                             <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
